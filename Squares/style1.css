@@ -1,0 +1,112 @@
+
+body{
+   background-color: black;
+}
+div{
+    border: 2px solid red;
+}
+    
+
+.h{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    background-color: gold;
+   
+    animation: h1 2s linear infinite;
+}
+@keyframes h1{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(60deg);}
+    50%{transform: rotate(120deg);}
+    75%{transform: rotate(240deg);}
+    100%{transform: rotate(360deg);}
+
+}
+
+
+.j{
+    height: 250px;
+    width: 250px;
+    margin-top: -275px;
+    margin-left: 25px;
+    background-color:navy;
+    animation: h2 2s linear infinite;
+    animation-delay: 0.3s;
+}
+@keyframes h2{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(60deg);}
+    50%{transform: rotate(120deg);}
+    75%{transform: rotate(240deg);}
+    100%{transform: rotate(360deg);}
+
+}
+.k{
+    height: 200px;
+    width: 200px;
+    margin-top: -225px;
+    margin-left: 50px;
+    background-color:gold;
+    animation: h3 2s linear infinite;
+    animation-delay: 0.6s;
+}
+@keyframes h3{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(60deg);}
+    50%{transform: rotate(120deg);}
+    75%{transform: rotate(240deg);}
+    100%{transform: rotate(360deg);}
+
+}
+.l{
+    height: 150px;
+    width: 150px;
+    margin-top: -175px;
+    margin-left: 75px;
+    background-color:navy;
+    animation: h4 2s linear infinite;
+    animation-delay: 0.9s;
+}
+@keyframes h4{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(60deg);}
+    50%{transform: rotate(120deg);}
+    75%{transform: rotate(240deg);}
+    100%{transform: rotate(360deg);}
+
+}
+.m{
+    height: 100px;
+    width: 100px;
+    margin-top: -125px;
+    margin-left: 100px;
+    background-color:gold;
+    animation: h5 2s linear infinite;
+    animation-delay: 1.2s;
+}
+@keyframes h5{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(60deg);}
+    50%{transform: rotate(120deg);}
+    75%{transform: rotate(240deg);}
+    100%{transform: rotate(360deg);}
+
+}
+.n{
+    height: 50px;
+    width: 50px;
+    margin-top: -75px;
+    margin-left: 125px;
+    background-color:navy;
+    animation: h6 2s linear infinite;
+    animation-delay: 1.5s;
+}
+@keyframes h6{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(60deg);}
+    50%{transform: rotate(120deg);}
+    75%{transform: rotate(240deg);}
+    100%{transform: rotate(360deg);}
+
+}

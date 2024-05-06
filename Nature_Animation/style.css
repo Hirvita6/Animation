@@ -1,0 +1,198 @@
+
+#r{
+    background-color:aquamarine;
+    height: 900px;
+    width: 900px;
+    margin-top: -200px;
+    
+    animation: body 5s linear infinite;
+    
+    
+}
+@keyframes body{
+    0%{background-color: aquamarine;
+    animation-delay: 1s;}
+    50%{background-color:lightsalmon;}
+    90%{background-color: black;}
+    100%{background-color: black;}
+}
+#j{
+    height: 900px;
+    width: 290px;
+    background-color: crimson;
+    margin-top: 250px;
+    margin-left: 10px;
+    border-style:solid ;
+    border-color: black;
+    border-width: 2px;
+}
+#k{
+    height: 540px;
+    width: 300px;
+    background-color:grey;
+    margin-top: -550px;  
+    margin-left:304px;
+    border-style:solid ;
+    border-color: black;
+    border-width: 2px;
+}
+#h{
+    height: 400px;
+    width: 280px;
+    background-color:rgb(4, 81, 33);
+    margin-top: -400px;  
+    margin-left: 607px;
+    border-style:solid ;
+    border-color: black;
+    border-width: 2px;
+}
+#l{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color:gold;
+    margin-top: -830px;
+    margin-left: 630px;
+    border-style:solid ;
+    border-color: rgb(240, 62, 8);
+    border-width: 5px;
+    animation: sun 5s linear infinite;
+}
+@keyframes sun{
+    0%{background-color: gold;
+    border-color: rgb(240, 62, 8);
+    animation-delay: 1s;
+transform: scale(1);}
+    50%{background-color:orange;
+    border-color: red;
+transform: scale(0.5);
+transform: translateY(220px);}
+    90%{background-color: white;
+    border-color: grey;
+transform: scale(2);
+
+transform: translateY(100px);}
+    90%{background-color: white;
+    border-color: grey;
+transform: scale(0.5);} 
+}
+.t{
+    height: 100px;
+    width: 100px;
+   
+    background-color:darkkhaki;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-style:solid ;
+    border-color:brown;
+    border-width: 1px; 
+    animation: light 5s linear infinite;
+}
+@keyframes light{
+    0%{background-color: darkkhaki;
+    border-color: brown;
+    animation-delay: 1s;}
+    50%{background-color:khaki;
+    border-color: rgba(165, 42, 42, 0.614);}
+    90%{background-color: white;
+    border-color: grey;}
+    90%{background-color: white;
+    border-color: grey;} 
+}
+.e{
+    height: 100px;
+    width: 100px;
+   
+    background-color:darkkhaki;
+    margin-bottom: 20px;
+    margin-left: 170px;
+    margin-top: -865px;
+    border-style:solid ;
+    border-color:brown;
+    border-width: 1px; 
+    animation: light2 5s linear infinite;
+}
+@keyframes light2{
+    0%{background-color: darkkhaki;
+    border-color: brown;
+    animation-delay: 1s;}
+    50%{background-color:khaki;
+    border-color: rgba(165, 42, 42, 0.614);}
+    90%{background-color: white;
+    border-color: grey;}
+    90%{background-color: white;
+    border-color: grey;} 
+}
+.w{
+    height: 100px;
+    width: 100px;
+   
+    background-color:darkkhaki;
+    margin-bottom: 20px;
+    margin-left: 170px;
+    margin-top: -0px;
+    border-style:solid ;
+    border-color:brown;
+    border-width: 1px; 
+    animation: light3 5s linear infinite;
+}
+@keyframes light3{
+    0%{background-color: darkkhaki;
+    border-color: brown;
+    animation-delay: 1s;}
+    50%{background-color:khaki;
+    border-color: rgba(165, 42, 42, 0.614);}
+    90%{background-color: white;
+    border-color: grey;}
+    90%{background-color: white;
+    border-color: grey;} 
+}
+.v{
+    height: 100px;
+    width: 100px;
+   
+    background-color:darkkhaki;
+    margin-bottom: 20px;
+    margin-left: 170px;
+    margin-top: -495px;
+    border-style:solid ;
+    border-color:brown;
+    border-width: 1px; 
+    animation: light4 5s linear infinite;
+}
+@keyframes light4{
+    0%{background-color: darkkhaki;
+    border-color: brown;
+    animation-delay: 1s;}
+    50%{background-color:khaki;
+    border-color: rgba(165, 42, 42, 0.614);}
+    90%{background-color: white;
+    border-color: grey;}
+    90%{background-color: white;
+    border-color: grey;} 
+}
+.o{
+    height: 100px;
+    width: 100px;
+   
+    background-color:darkkhaki;
+    margin-bottom: 20px;
+    margin-left: 170px;
+    margin-top: -370px;
+    border-style:solid ;
+    border-color:brown;
+    border-width: 1px;
+    animation: light5 5s linear infinite; 
+}
+@keyframes light5{
+    0%{background-color: darkkhaki;
+    border-color: brown;
+    animation-delay: 1s;}
+    50%{background-color:khaki;
+    border-color: rgba(165, 42, 42, 0.614);}
+    90%{background-color: white;
+    border-color: grey;}
+    90%{background-color: white;
+    border-color: grey;} 
+}

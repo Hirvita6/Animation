@@ -1,0 +1,101 @@
+
+        div{
+            border-radius: 50%;
+            }
+        .j{
+            height: 100px;
+            width: 100px;
+            margin-top: 150px;
+            background-color: lime;
+            margin-left: 60px;
+            animation: r1 3s linear infinite;
+         }
+         @keyframes r1{
+            0%{transform: translate(0px);
+            animation-delay: 0.3s;}
+            25%{transform: translate(100px);}
+            50%{transform: translate(200px);}
+
+         }
+         .k{
+            height: 100px;
+            width: 100px;
+            margin-top: -150px;
+            background-color:darkred;
+            margin-left: 150px;
+            animation: r2 3s linear infinite;
+         }
+         @keyframes r2{
+            0%{transform: translate(0px);
+            animation-delay: 0.3s;}
+            25%{transform: translateY(100px);}
+            50%{transform: translateY(200px);}
+            75%{transform: translateY(100px);}
+            100%{transform: translateY(0px);}
+
+         }
+         .l{
+            height: 100px;
+            width: 100px;
+            margin-top: 53px;
+            background-color:navy;
+            margin-left: 60px;
+            animation: r3 3s linear infinite;
+         }
+         @keyframes r3{
+            0%{transform: translate(0px);
+            animation-delay: 0.3s;}
+            25%{transform: translate(100px);}
+            50%{transform: translate(200px);}
+
+         }
+         .m{
+            height: 100px;
+            width: 100px;
+            margin-top: -50px;
+            background-color:red;
+            margin-left: 150px;
+            animation: r4 3s linear infinite;
+         }
+         @keyframes r4{
+            0%{transform: translate(0px);
+            animation-delay: 0.3s;}
+            25%{transform: translateY(-100px);}
+            50%{transform: translateY(-200px);}
+            75%{transform: translateY(-100px);}
+            100%{transform: translateY(0px);}
+
+         }
+         .n{
+            height: 100px;
+            width: 100px;
+            margin-top: -150px;
+            background-color:aqua;
+            margin-left: 240px;
+            animation: r5 3s linear infinite;
+         }
+         @keyframes r5{
+            0%{transform: translate(0px);
+            animation-delay: 0.3s;}
+            25%{transform: translate(-100px);}
+            50%{transform: translate(-200px);}
+
+         }
+         .o{
+            height: 100px;
+            width: 100px;
+            margin-top: -203px;
+            background-color: gold;
+            margin-left: 240px;
+            animation: r6 3s linear infinite;
+         }
+         @keyframes r6{
+            0%{transform: translate(0px);
+            animation-delay: 0.3s;}
+            25%{transform: translate(-100px);}
+            50%{transform: translate(-200px);}
+
+         }
+
+ 
+    

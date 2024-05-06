@@ -1,0 +1,79 @@
+
+body{
+    background-color: black;
+   
+}
+@keyframes y{
+    0%{transform: rotate(0deg);}
+    40%{transform: rotate(180deg);
+    border-bottom-right-radius: 50%;}
+    80%{transform: rotate(350deg);}
+    100%{transform: rotate(360deg);}
+}
+@keyframes k{
+    0%{transform: rotate(0deg);}
+    40%{transform: rotate(180deg);
+    border-top-right-radius: 50%;}
+    80%{transform: rotate(350deg);}
+    100%{transform: rotate(360deg);}
+}
+@keyframes bouncy{
+    0%{transform: rotate(0deg);}
+    40%{transform: rotate(180deg);
+    border-top-left-radius: 50%;}
+    80%{transform: rotate(350deg);}
+    100%{transform:rotate(360deg);}
+}
+@keyframes spin{
+    0%{transform: rotate(0deg);}
+    40%{transform: rotate(180deg);
+    border-bottom-left-radius: 50%;}
+    80%{transform: rotate(350deg);}
+    100%{transform: rotate(360deg);}
+}
+.r{
+    background-color: gold;
+    height: 50px;
+    width: 50px;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    animation: y 3s linear infinite;
+    animation-delay: 0.3s;
+}
+.e{
+    background-color:lime;
+    height: 50px;
+    width: 50px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%; 
+    margin-top: 3px;
+    animation: k 3s linear infinite ;
+    animation-delay: 0.3s;
+}
+.u{
+    background-color: navy;
+    height: 50px;
+    width: 50px;
+    margin-left: 53px;
+    margin-top: -103px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    animation: spin 3s linear infinite;
+    animation-delay: 0.3s;
+}
+.p{
+    background-color:red;
+    height: 50px;
+    width: 50px;
+    margin-top: 3px;
+    margin-left: 53px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    animation:bouncy 3s linear infinite ;
+    animation-delay: 0.3s; 
+   
+}

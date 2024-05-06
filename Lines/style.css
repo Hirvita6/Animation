@@ -1,0 +1,134 @@
+
+body   {
+   background-color: black;
+  
+ }
+ div{
+   border-radius: 0%;
+ }
+ .a{
+   background-color:yellow;
+   margin-top: 25px;
+   margin-left: 25px;
+   height: 150px;
+   width: 3px;
+   animation: a 3s linear infinite;
+ }
+ @keyframes a{
+   0%{transform:scale(1);
+   transform: translate(0px);}
+   50%{transform:scale(0.7);}
+   100%{transform:scale(1);}
+ }
+ .s{
+   background-color:darkorange;
+   margin-top: -150px;
+   margin-left: 35px;
+   height: 150px;
+   width: 3px;
+   animation: s 3s linear infinite;
+ }
+ @keyframes s{
+   0%{transform:scale(0.9);
+   transform: translate(0px);}
+   50%{transform:scale(0.6);}
+   100%{transform:scale(1);}
+ }
+ .d{
+   background-color:red;
+   margin-top: -150px;
+   margin-left: 45px;
+   height:150px;
+   width: 3px;
+   animation: d 3s linear infinite;
+ }
+ @keyframes d{
+   0%{transform:scale(0.8);
+   transform: translate(0px);}
+   50%{transform:scale(0.5);}
+   100%{transform:scale(1);}
+ }
+ .f{
+   background-color:purple;
+   margin-top: -150px;
+   margin-left: 55px;
+   height:150px;
+   width: 3px;
+   animation: f 3s linear infinite;
+ }
+ @keyframes f{
+   0%{transform:scale(0.7);
+   transform: translate(0px);}
+   50%{transform:scale(0.4);}
+   100%{transform:scale(1);}
+ }
+ .g{
+   background-color:navy;
+   margin-top: -150px;
+   margin-left: 65px;
+   height:150px;
+   width: 3px;
+   animation: g 3s linear infinite;
+ }
+ @keyframes g{
+   0%{transform:scale(0.6);
+   transform: translate(0px);}
+   50%{transform:scale(0.3);}
+   100%{transform:scale(1);}
+ }
+ .h{
+   background-color:aqua;
+   margin-top: -150px;
+   margin-left: 75px;
+   height: 150px;
+   width: 3px;
+   animation: h 3s linear infinite;
+ }
+ @keyframes h{
+   0%{transform:scale(0.7);
+   transform: translate(0px);}
+   50%{transform:scale(0.4);}
+   100%{transform:scale(1);}
+ }
+ .j{
+   background-color:white;
+   margin-top: -150px;
+   margin-left: 85px;
+   height: 150px;
+   width: 3px;
+   animation: j 3s linear infinite;
+ }
+ @keyframes j{
+   0%{transform:scale(0.8);
+   transform: translate(0px);}
+   50%{transform:scale(0.5);}
+   100%{transform:scale(1);}
+ }
+ .k{
+   background-color:deeppink;
+   margin-top: -150px;
+   margin-left: 95px;
+   height: 150px;
+   width: 3px;
+   animation: k 3s linear infinite;
+ }
+ @keyframes k{
+   0%{transform:scale(0.9);
+   transform: translate(0px);}
+   50%{transform:scale(0.6);}
+   100%{transform:scale(1);}
+ }
+ .l{
+   background-color:lime;
+   margin-top: -150px;
+   margin-left: 105px;
+   height: 150px;
+   width: 3px;
+   animation: l 3s linear infinite;
+ }
+  @keyframes l{
+   0%{transform:scale(1);
+   transform: translate(0px);}
+   50%{transform:scale(0.7 );}
+   100%{transform:scale(1);}
+ }

@@ -1,0 +1,10 @@
+circle{
+    animation: bouncy 2s linear infinite;
+}
+@keyframes bouncy{
+    0%{transform: scale(2.3);translateX(0px);}
+    25%{transform: scale(1);}
+    50%{transform: scale3d(0.5) ;}
+    75%{transform: scale(1);}
+    100%{transform: scale(2);}
+}

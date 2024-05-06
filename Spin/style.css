@@ -1,0 +1,26 @@
+
+    body{
+        background:rgb(0, 0, 0);
+    }
+   div{
+    border-radius: 50%;
+    background:rgb(10, 0, 2);
+    height: 300px;
+    width: 300px;
+    margin-top: 200px;
+   background-color: rgb(237, 229, 229);
+    margin-left: 500px;
+    border:20px solid rgb(255, 255, 255);
+    border-bottom-color: blue;
+    animation: spin 1s linear infinite;
+
+        
+        
+    }
+@keyframes spin{
+    0%{transform: rotate(0deg); border-bottom-color: blue;}
+    25%{transform: rotate(130deg); border-bottom-color:yellowgreen;}
+    50%{transform: rotate(220deg); border-bottom-color: red;}
+    100%{transform: rotate(360deg); }
+
+}
